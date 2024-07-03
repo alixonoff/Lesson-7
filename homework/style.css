@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    transform: translateY(20%);
+    background: white;
+    height: 100vh;
+    gap: 30px;
+    justify-content: center;
+}
+.birinchi{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.a{
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+    border: solid hsl(46, 100%, 80%)  10px;
+    background: linear-gradient(to right,
+    darkblue ,
+    #F56D53 ,
+    #59ff67 ,
+    #F56D53 ,
+    #F56D53 
+    );
+    box-shadow:  0 0 10px blue;
+}
+.b{
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+    background:  hsl(46, 100%, 80%) ;
+    box-shadow:  0 0 10px blue;
+}
+.c{
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+    border: solid rgb(105, 205, 238)  10px;
+    background: conic-gradient(
+         from -20deg at 70% 20%,
+         rgba(0, 0, 255, 0.486),
+        rgba(43, 138, 43, 0.514),
+        rgba(43, 138, 43, 0.514),
+        rgba(43, 138, 43, 0.514),
+        rgba(43, 138, 43, 0.514),
+        rgba(43, 138, 43, 0.514),
+        rgba(255, 0, 0, 0.699),
+        lightblue,
+        lightblue,
+        rgba(0, 0, 255, 0.486),
+        rgba(0, 0, 255, 0.486)
+    );
+    box-shadow:  0 0 10px blue;
+}
+.d{
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+    background:  rgb(105, 205, 238);
+    box-shadow:  0 0 10px blue;
+
+}
+.e{
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+    border: solid rgba(255, 0, 0, 0.664)  20px;
+    background: linear-gradient(
+        rgb(255, 79, 182),
+        red,
+        yellow
+    );
+}
+.f{
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+    background: rgba(255, 0, 0, 0.589);
+}
